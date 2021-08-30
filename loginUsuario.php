@@ -19,7 +19,7 @@
     if($stmt->rowCount() == 0){
         echo "Dados incorretos.";
         ?>
-            <button><a href="login.html">Voltar</a></button>
+            <button><a href="loginUsuario.html">Voltar</a></button>
         <?php
     }else{
         header("Location: principalUsuario.html");
