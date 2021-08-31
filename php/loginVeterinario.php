@@ -1,9 +1,9 @@
 <?php
-    include('conexao.php');
-    include('veterinario.php');
+    include('./conexao.php');
+    include('./veterinario.php');
     
     if(empty($_POST['usuario']) || empty($_POST['senha'])){
-        header('Location: loginVeterinario.html');
+        header('Location: ../html/loginVeterinario.html');
         exit();
     }
 
@@ -19,9 +19,9 @@
     if($stmt->rowCount() == 0){
         echo "Dados incorretos.";
         ?>
-            <button><a href="loginVeterinario.html">Voltar</a></button>
+            <button><a href="../html/loginVeterinario.html">Voltar</a></button>
         <?php
     }else{
-        header("Location: principalVeterinario.html");
+        header("Location: ../html/principalVeterinario.html");
     }
 ?>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Cadastro</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/estiloCadastros.css">
+</head>
+
+<body>
+    <div id="divFundo">
+
+        <div class="divForm">
+            <h6>Cadastro Cliente</h6>
+            <form action="../php/cadastroUsuario.php" method="POST">
+                <div style="width:  80%; padding-left: 10%;">
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>Nome:</legend>
+                        <input id="n" type="text" name="nome" placeholder="Seu nome..." required maxlength="50" minlength="5" />
+                    </fieldset>
+
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>E-mail:</legend>
+                        <input id="e" type="text" placeholder="Seu e-mail..." required maxlength="50" minlength="5" name="email" />
+                    </fieldset>
+
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>Telefone:</legend>
+                        <input id="t" type="text" placeholder="Seu telefone/celular..." required maxlength="50" minlength="5" name="telefone" />
+                    </fieldset>
+
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>Endereço:</legend>
+                        <input id="en" type="text" placeholder="Seu endereço..." required maxlength="50" minlength="5" name="endereco" />
+                    </fieldset>
+
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>Usuario</legend>
+                        <input id="u" type="text" placeholder="Seu user..." required maxlength="50" minlength="5" name="usuario" />
+                    </fieldset>
+
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>Senha:</legend>
+                        <input id="s" type="password" placeholder="Sua senha..." required maxlength="50" minlength="5" name="senha" />
+                    </fieldset>
+                </div>
+                <div style="padding-left: 70%; padding-bottom: 5px;padding-top: 5px;;">
+                    <input type="submit" />
+
+            </form>
+            <div class="divLink">
+                <a href='./inicial.html'>Início</a>
+            </div>
+            </div>
+</body>
+</body>
+
+</html>
