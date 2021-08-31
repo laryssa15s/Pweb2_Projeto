@@ -4,33 +4,42 @@
 <head>
     <title>Login</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="estiloLoginVeterinario.css">
-
+    <link rel="stylesheet" type="text/css" href="estilizacaoLoginVet.css">
 
 </head>
 
 <body>
+    <div >
     <div id="divFundo">
-        <h1>Login</h1>
-        <br>
-        <br>
-        <form action="loginVeterinario.php" method="POST">
-            <div style="width: 50%;">
-                <label style="font-size:15px;" for="t">Usuario</label>
-                <input id="ul" style="border-radius: 15px;" type="text" name="usuario" />
+        <form class="centroForm2">
+            <center>Login Veterinário</center>
+            <hr>
+        </form>
+        </div>
+        <form class="centroForm">
+            <center>
+            <div style="width: 60%;">
+                <fieldset style="font-size: 17px; border-radius: 3px; border: 1px solid #d1d1d1;"><legend>Usuário</legend>
+                <input type="text" name="usuario" placeholder="Nome de usuário..." required maxlength="100" minlength="2">
+            </fieldset>
             </div>
-            <div style="width: 50%;">
-                <label style="font-size:15px;" for="n">Senha:</label>
-                <input id="sl" style="border-radius: 15px;" type="password" name="senha" />
+
+
+            <div style="width: 60%;">
+
+                <fieldset style="font-size: 17px; border-radius: 3px; border: 1px solid #d1d1d1"><legend>Senha:</legend>
+                <input type="password" name="senha" placeholder="Sua senha..." required maxlength="50" minlength="5">
+                </fieldset>
             </div>
+            </center>
             <div style="padding-left: 70%; padding-bottom: 5px;padding-top: 5px;;">
-                <input style="background-color: hsl(240, 30%, 18%); color: rgb(243, 239, 239); font-size: 15px;" type="submit" />
+                <input type="submit" value="Entrar">
+
+                
             </div>
         </form>
-        <div class="divLink">
-            <a href='principalVeterinario.html'>Cadastro</a>
-        </div>
+    </div>
+        
+        
     </div>
 </body>
-
-</html>
