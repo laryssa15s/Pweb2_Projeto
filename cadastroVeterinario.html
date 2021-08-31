@@ -11,49 +11,59 @@
 <body>
     <div id="divFundo">
 
-        <h1>Cadastro</h1>
-        <form action="cadastroVeterinario.php" method="POST">
-            <div class="divForm">
-                <label style="font-size:15px;" for="n">Nome:</label>
-                <input id="n" style="border-radius: 15px;" type="text" name="nome" />
-            </div>
-            <div class="divForm">
-                <label style="font-size:15px;" for="e">E-mail:</label>
-                <input id="e" style="border-radius: 15px;" type="text" name="email" />
-            </div>
-            <div class="divForm">
-                <label style="font-size:15px;" for="c">CPF:</label>
-                <input id="c" style="border-radius: 15px;" type="text" name="cpf" />
-            </div>
-            <div class="divForm">
-                <label style="font-size:15px;" for="t">Telefone:</label>
-                <input id="t" style="border-radius: 15px;" type="text" name="telefone" />
-            </div>
-            <div class="divForm">
-                <label style="font-size:15px;" for="en">Endereço:</label>
-                <input id="en" style="border-radius: 15px;" type="text" name="endereco" />
-            </div>
-            <div class="divForm">
-                <label style="font-size:15px;" for="u">Usuario</label>
-                <input id="u" style="border-radius: 15px;" type="text" name="usuario" />
-            </div>
-            <div class="divForm">
-                <label style="font-size:15px;" for="s">Senha:</label>
-                <input id="s" style="border-radius: 15px;" type="password" name="senha" />
-            </div>
-            <div style="padding-left: 70%; padding-bottom: 5px;padding-top: 5px;;">
-                <input style="background-color: hsl(240, 30%, 18%); color: rgb(243, 239, 239); font-size: 15px;" type="submit" />
-            </div>
+        <div class="divForm">
+            <h6>Cadastro Veterinário</h6>
+            <form action="cadastroVeterinario.php" method="POST">
+                <div style="width:  80%; padding-left: 10%;">
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>Nome:</legend>
+                        <input id="n" type="text" name="nome" placeholder="Seu nome..." required maxlength="50"
+                            minlength="5" />
+                    </fieldset>
 
-        </form>
-        <div class="divLink">
-            <a href='loginVeterinario.html'>Login</a>
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>E-mail:</legend>
+                        <input id="e" type="text" name="email" placeholder="Seu e-mail..." required maxlength="50"
+                            minlength="5" />
+                    </fieldset>
+
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>CPF:</legend>
+                        <input id="c" type="text" name="cpf" placeholder="Seu CPF..." required maxlength="50"
+                            minlength="5" />
+                    </fieldset>
+
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>Telefone:</legend>
+                        <input id="t" type="text" name="telefone" placeholder="Seu telefone/celular..." required
+                            maxlength="50" minlength="5" />
+                    </fieldset>
+
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>Endereço:</legend>
+                        <input id="en" type="text" name="endereço" placeholder="Seu endereço..." required maxlength="50"
+                            minlength="5" />
+                    </fieldset>
+
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>Usuario</legend>
+                        <input id="u" type="text" name="usuario" placeholder="Seu user..." required maxlength="50"
+                            minlength="5" />
+                    </fieldset>
+
+                    <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                        <legend>Senha:</legend>
+                        <input id="s" type="password" name="senha" placeholder="Sua senha..." required maxlength="50"
+                            minlength="5" />
+                    </fieldset>
+                </div>
+                <div style="padding-left: 70%; padding-bottom: 5px;padding-top: 5px;;">
+                    <input type="submit" />
+                    <div class="divLink">
+                        <a href='loginVeterinario.html'>Login</a>
+                    </div>
+            </form>
         </div>
-    </div>
-
-
-
-
 </body>
 
 </html>
