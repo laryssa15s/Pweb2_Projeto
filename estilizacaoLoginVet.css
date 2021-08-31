@@ -21,7 +21,7 @@ body {
     left: 50%;
     //Formulário está afastado a 50% da esquerda//
     top: 30%;
-    //Formulário está afastadoo a 50% do topo//
+    /Formulário está afastadoo a 50% do topo//
     transform: translate(-50%, -50%);
     padding: 30px;
     border-radius: 20px;
@@ -33,7 +33,7 @@ body {
     max-width: 500px;
     //Formulário possui largura máxima de 500px//
     background-color: white;
-    //Formulário possui fundo branco//
+    /Formulário possui fundo branco/
     width: 70%;
     /Formulário possui largura de 70% da tela//
     position: absolute;
