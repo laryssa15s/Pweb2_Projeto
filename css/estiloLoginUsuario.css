@@ -1,0 +1,101 @@
+body {
+    background: linear-gradient(-60deg, #280B6F, #6730EC, #7984EE) no-repeat;
+    /*cores, -45 é a direção em que as cores irá se movimentar*/
+    background-size: 300% 300%;
+    display: flex center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /*para ocupar toda a tela/*/
+    font-size: 300%;
+}
+
+.centrotitle {
+    max-width: 500px;
+    /*/Formulário possui largura máxima de 500px/*/
+    background-color: white;
+    /*/Formulário possui fundo branco/*/
+    width: 70%;
+    /*/Formulário possui largura de 70% da tela/*/
+    position: absolute;
+    left: 50%;
+    /*/Formulário está afastado a 50% da esquerda/*/
+    top: 30%;
+    /*/Formulário está afastadoo a 50% do topo/*/
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    color: #280B6F;
+}
+
+.centroForm {
+    max-width: 500px;
+    /*/Formulário possui largura máxima de 500px/*/
+    background-color: white;
+    /*/Formulário possui fundo branco/*/
+    width: 70%;
+    /*Formulário possui largura de 70% da tela/*/
+    position: absolute;
+    left: 50%;
+    /*/Formulário está afastado a 50% da esquerda/*/
+    top: 53%;
+    /*/Formulário está afastadoo a 50% do topo/*/
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    color: #280B6F;
+}
+
+form input[type=submit] {
+    /*/botao entrar/*/
+    width: 70%;
+    /*/largura/*/
+    height: 44px;
+    /*altura/*/
+    cursor: pointer;
+    /*/mouse com a mão/*/
+    background-color: #280B6F;
+    /*/cor de fundo/*/
+    color: white;
+    /*/letra branca/*/
+    border: 0;
+    border-radius: 10px;
+    /*borda um pouco redonda/*/
+    margin: 11px 73px;
+    margin: -50% -95%;
+}
+
+.divLink {
+    width: 25%;
+    /*largura*/
+    height: 44px;
+    /*altura*/
+    cursor: pointer;
+    /*mouse com a mão*/
+    background-color: #a898ce;
+    /*cor de fundo*/
+    /*cor da letra*/
+    border: 0;
+    border-radius: 10px;
+    /*borda um pouco redonda*/
+    /*margin: 11px 73px;*/
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5px;
+}
+
+a {
+    display: block;
+    font-size: 18px;
+    /*tamanho das letras*/
+    font-family: 'Arial';
+    /*tipo da fonte*/
+    padding: 10px;
+    color: black;
+    /*Cor da letra*/
+    text-decoration: none;
+    transition: all .4s;
+    /*qualquer transição dura 0.4s*/
+}

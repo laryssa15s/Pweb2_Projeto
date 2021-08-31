@@ -1,0 +1,129 @@
+body {
+    animation: gradient 5s ease infinite;
+    background: #7984EE;
+    background-size: 300% 300%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /*para ocupar toda a tela*/
+    font-size: 300%;
+}
+
+.divForm {
+    max-width: 100%;
+    /*Formulário possui largura máxima de 500px*/
+    background-color: white;
+    /*Formulário possui fundo branco*/
+    width: 50%;
+    /*Formulário possui largura de 70% da tela*/
+    position: absolute;
+    height: 950x;
+    left: 50%;
+    /*Formulário está afastado a 50% da esquerda*/
+    top: 90%;
+    /*Formulário está afastadoo a 50% do topo*/
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: r;
+    border: 0;
+    border-radius: 20px;
+    /*borda um pouco redonda*/
+    /*margin: 11px 73px;*/
+}
+
+#nome {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+form input[type="password"] {
+    /* campo de texto e campo de senha*/
+    width: 55%;
+    /*largura*/
+    height: 35px;
+    /*altura*/
+    border: 1px solid #ccc;
+    /*borda*/
+    padding-left: 10px;
+    margin: 11px -7px;
+}
+
+form input[type="text"] {
+    /* campo de texto e campo de senha*/
+    width: 50%;
+    /*largura*/
+    height: 35px;
+    /*altura*/
+    border: 1px solid #ccc;
+    /*borda*/
+    padding-left: 10px;
+    margin: 11px -7px;
+}
+
+form input[type=submit] {
+    /*botao entrar*/
+    width: 70%;
+    /*largura*/
+    height: 44px;
+    /*altura*/
+    cursor: pointer;
+    /*mouse com a mão*/
+    background-color: #280B6F;
+    /*cor de fundo*/
+    color: white;
+    /*letra branca*/
+    border: 0;
+    border-radius: 20px;
+    /*borda um pouco redonda*/
+    /*margin: 11px 73px;*/
+    transition: 1s;
+    /*a cor verde irá demorar 1s para ser mostrada*/
+}
+
+h6 {
+    font-family: verdana;
+    text-align: center;
+    color: #280B6F;
+    padding-bottom: 0%;
+}
+
+form input[type=submit]:hover {
+    /*passar o mouse no botao e ficar verde*/
+    background-color: #66CDAA;
+}
+
+#fundo:hover {
+    background-color: red;
+    color: black;
+}
+
+a {
+    display: block;
+    font-size: 18px;
+    /*tamanho das letras*/
+    font-family: 'Arial';
+    /*tipo da fonte*/
+    padding: 10px;
+    color: black;
+    /*Cor da letra*/
+    text-decoration: none;
+    transition: all .4s;
+    /*qualquer transição dura 0.4s*/
+}
+
+.divLink {
+    width: 70%;
+    /*largura*/
+    height: 44px;
+    /*altura*/
+    cursor: pointer;
+    /*mouse com a mão*/
+    background-color: #a898ce;
+    /*cor de fundo*/
+    /*cor da letra*/
+    border: 0;
+    border-radius: 20px;
+    /*borda um pouco redonda*/
+    /*margin: 11px 73px;*/
+    text-align: center;
+}

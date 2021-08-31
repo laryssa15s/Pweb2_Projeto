@@ -1,9 +1,9 @@
 <?php
-    include('conexao.php');
-    include('usuario.php');
+    include('./conexao.php');
+    include('./usuario.php');
     
     if(empty($_POST['nome'])|| empty($_POST['email']) || empty($_POST['telefone']) || empty($_POST['endereco']) || empty($_POST['usuario'])  || empty($_POST['senha'])){
-        header('Location: cadastroUsuario.html');
+        header('Location: ../html/cadastroUsuario.html');
         exit();
     }
 
@@ -36,6 +36,6 @@
         $stmt->execute(array(':nome' => $nome,':email' => $email, ':telefone' => $telefone,':endereco' => $endereco,':usuario' => $usuario,  ':senha'=> $senha));
 
         echo "Cadastro efetuado!";
-        header("Location: loginUsuario.html");
+        header("Location: ../html/loginUsuario.html");
     }
 ?>

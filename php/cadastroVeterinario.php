@@ -1,9 +1,9 @@
 <?php
-    include('conexao.php');
-    include('veterinario.php');
+    include('./conexao.php');
+    include('./veterinario.php');
     
     if(empty($_POST['nome'])|| empty($_POST['email']) || empty($_POST['cpf']) || empty($_POST['telefone']) || empty($_POST['endereco']) || empty($_POST['usuario'])  || empty($_POST['senha'])){
-        header('Location: cadastroVeterinario.html');
+        header('Location: ../html/cadastroVeterinario.html');
         exit();
     }
 
@@ -37,6 +37,6 @@
         $stmt->execute(array(':nome' => $nome,':email' => $email ,':cpf' => $cpf, ':telefone' => $telefone,':endereco' => $endereco,':usuario' => $usuario,  ':senha'=> $senha));
 
         echo "Cadastro efetuado!";
-        header("Location: loginVeterinario.html");
+        header("Location: ../html/loginVeterinario.html");
     }
 ?>

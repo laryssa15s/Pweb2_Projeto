@@ -1,9 +1,9 @@
 <?php
-    include('conexao.php');
-    include('usuario.php');
+    include('./conexao.php');
+    include('./usuario.php');
     
     if(empty($_POST['usuario']) || empty($_POST['senha'])){
-        header('Location: loginUsuario.html');
+        header('Location: ../html/loginUsuario.html');
         exit();
     }
 
@@ -19,9 +19,9 @@
     if($stmt->rowCount() == 0){
         echo "Dados incorretos.";
         ?>
-            <button><a href="loginUsuario.html">Voltar</a></button>
+            <button><a href="../html/loginUsuario.html">Voltar</a></button>
         <?php
     }else{
-        header("Location: principalUsuario.html");
+        header("Location: ../html/principalUsuario.html");
     }
 ?>
