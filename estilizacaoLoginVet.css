@@ -1,27 +1,27 @@
 body {
     background: linear-gradient(-60deg, #280B6F, #6730EC, #7984EE) no-repeat;
-    /cores, -45 é a direção em que as cores irá se movimentar/
+    /*cores, -45 é a direção em que as cores irá se movimentar*/
     background-size: 300% 300%;
     display: flex center;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /para ocupar toda a tela//
+    /*para ocupar toda a tela*/
     font-size: 300%;
 }
 
 .centroForm2 {
     max-width: 500px;
-    //Formulário possui largura máxima de 500px//
+    /*Formulário possui largura máxima de 500px*/
     background-color: white;
-    //Formulário possui fundo branco//
+    /*Formulário possui fundo branco*/
     width: 70%;
-    //Formulário possui largura de 70% da tela//
+    /*Formulário possui largura de 70% da tela*/
     position: absolute;
     left: 50%;
-    //Formulário está afastado a 50% da esquerda//
+    /*Formulário está afastado a 50% da esquerda*/
     top: 30%;
-    /Formulário está afastadoo a 50% do topo//
+    /*Formulário está afastadoo a 50% do topo*/
     transform: translate(-50%, -50%);
     padding: 30px;
     border-radius: 20px;
@@ -31,16 +31,16 @@ body {
 
 .centroForm {
     max-width: 500px;
-    //Formulário possui largura máxima de 500px//
+    /*Formulário possui largura máxima de 500px*/
     background-color: white;
-    /Formulário possui fundo branco/
+    /*Formulário possui fundo branco*/
     width: 70%;
-    /Formulário possui largura de 70% da tela//
+    /*Formulário possui largura de 70% da tela*/
     position: absolute;
     left: 50%;
-    //Formulário está afastado a 50% da esquerda//
+    /*Formulário está afastado a 50% da esquerda*/
     top: 53%;
-    //Formulário está afastadoo a 50% do topo//
+    /*Formulário está afastadoo a 50% do topo*/
     transform: translate(-50%, -50%);
     padding: 30px;
     border-radius: 20px;
@@ -49,20 +49,20 @@ body {
 }
 
 form input[type=submit] {
-    //botao entrar//
+    /*botao entrar*/
     width: 70%;
-    //largura//
+    /*largura*/
     height: 44px;
-    /altura//
+    /*altura*/
     cursor: pointer;
-    //mouse com a mão//
+    /*mouse com a mão*/
     background-color: #280B6F;
-    //cor de fundo//
+    /*cor de fundo*/
     color: white;
-    //letra branca//
+    /*letra branca*/
     border: 0;
     border-radius: 10px;
-    /borda um pouco redonda//
+    /*borda um pouco redonda*/
     margin: 11px 73px;
     margin: -50% -95%;
 }
