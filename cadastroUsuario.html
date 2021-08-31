@@ -2,48 +2,54 @@
 <html>
 
 <head>
-    <title>Cadastro</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="estiloCadastroUsuario.css">
 </head>
 
 <body>
     <div id="divFundo">
-
-        <h1>Cadastro</h1>
+    <div class="divForm">
+        <h6 id="cad">Cadastro de Usúario</h6>
         <form action="cadastroUsuario.php" method="POST">
-            <div class="divForm">
-                <label style="font-size:15px;" for="n">Nome:</label>
-                <input id="n" style="border-radius: 15px;" type="text" name="nome" />
-            </div>
-            <div class="divForm">
-                <label style="font-size:15px;" for="n">E-mail:</label>
-                <input id="e" style="border-radius: 15px;" type="text" name="email" />
-            </div>
-            <div class="divForm">
-                <label style="font-size:15px;" for="n">Telefone:</label>
-                <input id="n" style="border-radius: 15px;" type="text" name="telefone" />
-            </div>
-            <div class="divForm">
-                <label style="font-size:15px;" for="n">Endereço:</label>
-                <input id="n" style="border-radius: 15px;" type="text" name="endereco" />
-            </div>
-            <div class="divForm">
-                <label style="font-size:15px;" for="t">Usuario</label>
-                <input id="t" style="border-radius: 15px;" type="text" name="usuario" />
-            </div>
-            <div class="divForm">
-                <label style="font-size:15px;" for="n">Senha:</label>
-                <input id="s" style="border-radius: 15px;" type="password" name="senha" />
-            </div>
+            <div style="width: 80%; padding-left: 10%;">
+            <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                <legend id="nome">Nome:</legend>
+                <input id="n" type="text" name="nome" placeholder="Seu nome..." required maxlength="50"
+                minlength="5" />
+            </fieldset>
+            <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                <legend id="nome">E-mail:</legend>
+                <input id="e" name="email" type="email" placeholder="Seu e-mail..." required maxlength="50"
+                minlength="5"/>
+            </fieldset>
+            <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                <legend id="nome">Telefone:</legend>
+                <input id="n" name="telefone" type="text" placeholder="Seu telefone..." required maxlength="50"
+                minlength="5"/>
+            </fieldset>
+            <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                <legend id="nome" >Endereço:</legend>
+                <input id="en" type="text" name="endereco" placeholder="Seu endereço..." required maxlength="50"
+                minlength="5"/>
+            </fieldset>
+            <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                <legend id="nome" >Usuario:</legend>
+                <input id="t" type="text" name="usuario" placeholder="Seu usuário..." required maxlength="50"
+                minlength="5"/>
+            </fieldset>
+            <fieldset style="font-size: 15px; border-radius: 3px; border: 1px solid #d1d1d1;">
+                <legend id="nome">Senha:</legend>
+                <input id="s" type="password" name="senha" placeholder="Sua senha..." required maxlength="50"
+                minlength="5" />
+            </fieldset>
             <div style="padding-left: 70%; padding-bottom: 5px;padding-top: 5px;;">
-                <input style="background-color: hsl(240, 30%, 18%); color: rgb(243, 239, 239); font-size: 15px;" type="submit" />
+                <input type="submit" />
+            <div class="divLink";>
+                <a href='login.html'>Login</a>
             </div>
-
         </form>
-        <div class="divLink">
-            <a href='login.html'>Login</a>
-        </div>
+    </div>
+
     </div>
 
 
